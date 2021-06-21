@@ -110,6 +110,9 @@ reactDOM.render(<h1>Hello World</h1>, document.getElementById("root"));
 </div>
 ```
 
+- Do `npm start `in the `src` folder to start compiling.
+- Do `ctrl + C` to stop.
+
 **Questions:**
 
 > :question: **Q3**: I wanna know where this `'root'` is. It's probably not important to know, but when I have time to come back I wanna check this.
