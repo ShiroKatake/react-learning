@@ -14,6 +14,8 @@ And so, this is the start of my React.js learning journey. From here down will b
 
 # Study Log
 
+## **Lesson 0: About React**
+
 ## **Lesson 1: Installing React**
 
 ### **Resources:**
