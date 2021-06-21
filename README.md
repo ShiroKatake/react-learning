@@ -14,6 +14,8 @@ And so, this is the start of my React.js learning journey. From here down will b
 
 # Study Log
 
+Day 1: 21/06/2021
+
 ## **Lesson 0: About React**
 
 ### **Resources:**
@@ -70,3 +72,24 @@ I'll keep these things in mind as I'm going through this to see if these are tru
 > :question: **Q2**: What about putting every React-based projects inside a "master" folder called something like `React Web Apps`?
 
 :thinking: **Theory**: This might not work in a professional environment where each project needs to be kept separate (I actually don't know why but I feel like it's a good idea), but it might work for my purpose cuz it might save lots of time from having to reinstall pretty much the same package for every.single.project that I'll be making pretty much rapidly.
+
+---
+
+## **Lesson 2: Hello World**
+
+### **Notes:**
+
+- Reminder to always do this before writing anything:
+
+```js
+import React from "react";
+import ReactDOM from "react-dom";
+```
+
+- To do the main render, do:
+
+```js
+reactDOM.render(<h1>Hello World</h1>, document.getElementById("root"));
+```
+
+> :question: **Q3**: I wanna know where this `'root'` is. It's probably not important to know, but when I have time to come back I wanna check this.
