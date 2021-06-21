@@ -78,6 +78,7 @@ I'll keep these things in mind as I'm going through this to see if these are tru
 - After trying to compile HelloWorld for Lesson 2, it looks like you'd have to reinstall it for every project. Command Prompt is complaining about not being able to find `index.js`, which there can only be 1 in `src` folder, but I need to have multiple for each project.
 - Exceeeept, [this part](https://youtu.be/DLX62G4lc44?t=1783) says I can. So I'm gonna try it (Update: **IT WORKED**)
   - Putting `index.js` in the `src` folder made this modular thing so much more apparent. If I wanna test a project, just pass that project's "main" function in the renderer statement _(React is so powerful)_.
+  - Downside to this is, I can't stick to the convention of naming the self-enclosing tag for the main renderer the same name as its path, because every "main" script for every project would be named `App`
 
 ---
 
@@ -116,3 +117,16 @@ reactDOM.render(<h1>Hello World</h1>, document.getElementById("root"));
 **Questions:**
 
 > :question: **Q3**: I wanna know where this `'root'` is. It's probably not important to know, but when I have time to come back I wanna check this.
+
+## **Lesson 3: Implementing Components**
+
+### **Resources:**
+
+[Traversy Media: React JS Crash Course 2021](https://youtu.be/DLX62G4lc44?t=2107)
+
+### **Notes:**
+
+- Always have a folder named `components` that contains all the component scripts.
+- Always also write `export default [FunctionName]` for every component file.
+- Always also also have an `App.js` file for a main function.
+- Remember to import the components before using it.
