@@ -16,6 +16,37 @@ And so, this is the start of my React.js learning journey. From here down will b
 
 ## **Lesson 0: About React**
 
+### **Resources:**
+
+- [Traversy Media: React JS Crash Course 2021](https://youtu.be/DLX62G4lc44?t=384)
+- [C#Corner - What And Why React.js](https://www.c-sharpcorner.com/article/what-and-why-reactjs/)
+
+### **Notes:**
+
+This is basically coding in C# for Unity.
+
+- There is a component system of a sort. Eg. You can have a 'Header' component, a 'Body', and a 'Footer' component, each being a separate script on their own, and can be modular (you can choose to have or not to have them in the app, or even pass them as parameters).
+- There seems to also be a central location, like a `main()` function (looks like it's `<App />` for React) where everything falls into place.
+- `return` seems to be the "renderer" for the web app.
+- There seems to also be a "central" renderer as well:
+
+```js
+reactDOM.render(<App />, document.getElementById("root"));
+```
+
+Conclusion: This is **so much more efficient** since I've always been building web apps "manually", which meant having to deal with only a massively confusing tree of nested tags. Whereas this allows me to break it down into an easier-to-understand structure. This might also be faster than typing the tags out manually too?
+
+_Apparently,_ React.js is also:
+
+- [ ] Easy to learn
+- [ ] Performant
+- [ ] "Super easy to test"
+- [ ] "Super reusable (in terms of code)"
+
+I'll keep these things in mind as I'm going through this to see if these are true or not
+
+---
+
 ## **Lesson 1: Installing React**
 
 ### **Resources:**
