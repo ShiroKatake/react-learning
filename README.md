@@ -73,6 +73,10 @@ I'll keep these things in mind as I'm going through this to see if these are tru
 
 :thinking: **Theory**: This might not work in a professional environment where each project needs to be kept separate (I actually don't know why but I feel like it's a good idea), but it might work for my purpose cuz it might save lots of time from having to reinstall pretty much the same package for every.single.project that I'll be making pretty much rapidly.
 
+**Discoveries:**
+
+- After trying to compile HelloWorld for Lesson 2, it looks like you'd have to reinstall it for every project. Command Prompt is complaining about not being able to find `index.js`, which there can only be 1 in `src` folder, but I need to have multiple for each project.
+
 ---
 
 ## **Lesson 2: Hello World**
