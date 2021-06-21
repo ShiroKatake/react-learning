@@ -92,4 +92,18 @@ import ReactDOM from "react-dom";
 reactDOM.render(<h1>Hello World</h1>, document.getElementById("root"));
 ```
 
+- The html-like tags are actually in JSX
+- Rules for JSX tags:
+
+> There can only ever be 1 enclosing tag. If you wanna have multiple adjacent you'd need to enclose it in a `<div>` tag. Example:
+
+```html
+<div>
+  <h1>Hello World</h1>
+  <p>This is a paragraph</p>
+</div>
+```
+
+**Questions:**
+
 > :question: **Q3**: I wanna know where this `'root'` is. It's probably not important to know, but when I have time to come back I wanna check this.
