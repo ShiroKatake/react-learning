@@ -30,6 +30,10 @@ And so, this is the start of my React.js learning journey. From here down will b
 
 ### **Questions:**
 
-:question: **Q1**: Can I just make a "default" project with this installed and just copy pasta every time I make a new project? It seems faster that way, but I guess the downside is it won't be 100% up to date every time I make a new project.
+> :question: **Q1**: Can I just make a "default" project with this installed and just copy pasta every time I make a new project?
 
-:question: **Q2**: What about putting every React-based projects inside a "master" folder called something like `React Web Apps`? Might not work in a professional environment where each project needs to be separate, but it might work for my purpose.
+:thinking: **Theory**: It seems faster that way, though I guess the downside is it won't be 100% up to date if I make a new project say 3 months down the line for example.
+
+> :question: **Q2**: What about putting every React-based projects inside a "master" folder called something like `React Web Apps`?
+
+:thinking: **Theory**: This might not work in a professional environment where each project needs to be kept separate (I actually don't know why but I feel like it's a good idea), but it might work for my purpose cuz it might save lots of time from having to reinstall pretty much the same package for every.single.project that I'll be making pretty much rapidly.
