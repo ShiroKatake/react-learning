@@ -76,6 +76,7 @@ I'll keep these things in mind as I'm going through this to see if these are tru
 **Discoveries:**
 
 - After trying to compile HelloWorld for Lesson 2, it looks like you'd have to reinstall it for every project. Command Prompt is complaining about not being able to find `index.js`, which there can only be 1 in `src` folder, but I need to have multiple for each project.
+- Exceeeept, [this part](https://youtu.be/DLX62G4lc44?t=1783) says I can. So I'm gonna try it.
 
 ---
 
