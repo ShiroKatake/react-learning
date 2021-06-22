@@ -138,3 +138,17 @@ reactDOM.render(<h1>Hello World</h1>, document.getElementById("root"));
 Day 2: 22/06/2021
 
 ## **Exercise 1: Making a Todo list**
+
+---
+
+## **Lesson 4: Styling with React**
+
+### **Resources:**
+
+[Traversy Media: React JS Crash Course 2021](https://youtu.be/DLX62G4lc44?t=3051)
+
+### **Notes:**
+
+- Where you'd normally use `class` for an html tag (ie. `<div class="something"`>), replace it with `className`.
+- Right now, just worry about doing this for the React elements (html-like tags). Don't worry about the components just yet.
+- Everything you'd normally do in css is kept the same.
