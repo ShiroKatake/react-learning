@@ -151,7 +151,10 @@ Day 2: 22/06/2021
 
 - Where you'd normally use `class` for an html tag (ie. `<div class="something"`>), replace it with `className`.
 - Right now, just worry about doing this for the React elements (html-like tags). Don't worry about the components just yet.
-- Everything you'd normally do in css is kept the same.
+- ~~Everything~~ Most of what you'd normally do in css is kept the same.
+- Property names are always in `camelCase`.
+- They also need to be an object (ie. surrounded by `{ }`).
+  - Therefore, if you wanna write inline styling, it'd be `{{}}`. First pair to "convert" to Js, second pair to declare the object.
 
 ---
 
