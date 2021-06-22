@@ -1,10 +1,14 @@
 import React from 'react'
 import reactDom from 'react-dom'
-import Checklist from './components/Checklist'
+import TodoComponent from './components/TodoItem'
 
 function App() {
     return(
-        <Checklist />
+        <div className="todo-list">
+            <TodoComponent />
+            <TodoComponent />
+            <TodoComponent />
+        </div>
     )
 }
 
