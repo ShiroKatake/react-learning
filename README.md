@@ -118,6 +118,8 @@ reactDOM.render(<h1>Hello World</h1>, document.getElementById("root"));
 
 > :question: **Q3**: I wanna know where this `'root'` is. It's probably not important to know, but when I have time to come back I wanna check this.
 
+---
+
 ## **Lesson 3: Implementing Components**
 
 ### **Resources:**
@@ -130,3 +132,9 @@ reactDOM.render(<h1>Hello World</h1>, document.getElementById("root"));
 - Always also write `export default [FunctionName]` for every component file.
 - Always also also have an `App.js` file for a main function.
 - Remember to import the components before using it.
+
+---
+
+Day 2: 22/06/2021
+
+## **Exercise 1: Making a Todo list**
