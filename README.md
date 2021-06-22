@@ -152,3 +152,21 @@ Day 2: 22/06/2021
 - Where you'd normally use `class` for an html tag (ie. `<div class="something"`>), replace it with `className`.
 - Right now, just worry about doing this for the React elements (html-like tags). Don't worry about the components just yet.
 - Everything you'd normally do in css is kept the same.
+
+---
+
+## **Lesson 5: Javascript in JSX**
+
+### **Resources:**
+
+[Traversy Media: React JS Crash Course 2021](https://youtu.be/DLX62G4lc44?t=3495)
+
+### **Notes:**
+
+- If you wanna do Js stuffs in the middle of a JSX statement, just put `{ }` around it.
+
+Eg.
+
+```html
+<h1>Hello {fName + " " + lName}!</h1>
+```
