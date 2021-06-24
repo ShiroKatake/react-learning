@@ -75,7 +75,7 @@ I'll keep these things in mind as I'm going through this to see if these are tru
 
 :thinking: **Theory**: This might not work in a professional environment where each project needs to be kept separate (I actually don't know why but I feel like it's a good idea), but it might work for my purpose cuz it might save lots of time from having to reinstall pretty much the same package for every.single.project that I'll be making pretty much rapidly.
 
-:exclamation: **A2**: Yes you can. Just install React like normal, but put every project in their own folder under the `src` folder. Then make an `index.js` in the src folder. That will be the "main" function that renders everything. In order to still have a "pseudo main" function for each project, make an `App.js` where everything is organized.
+:exclamation: **A2**: Yes you can. Just install React like normal, but put every project in their own folder under the `src` folder. Then make an `index.js` in the src folder. That will be the "main" function that renders everything. In order to still have a "pseudo main" function for each project, make an `App.js` where everything is organized. Also, an added bonus to this is if you wanna update React for every project, just reinstall React and copy pasta the `src` folder over.
 
 **Discoveries:**
 
