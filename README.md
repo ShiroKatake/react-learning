@@ -90,12 +90,12 @@ I'll keep these things in mind as I'm going through this to see if these are tru
 
 ```js
 import React from "react";
-import ReactDOM from "react-dom";
 ```
 
 - To do the main render, do:
 
 ```js
+import ReactDOM from "react-dom";
 reactDOM.render(<h1>Hello World</h1>, document.getElementById("root"));
 ```
 
@@ -173,3 +173,7 @@ Eg.
 ```html
 <h1>Hello {fName + " " + lName}!</h1>
 ```
+
+---
+
+## **Lesson 6: Props**
