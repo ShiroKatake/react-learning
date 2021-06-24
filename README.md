@@ -116,6 +116,7 @@ reactDOM.render(<h1>Hello World</h1>, document.getElementById("root"));
 ```
 
 - Do `npm start `in the `src` folder to start compiling.
+- You can quick access the `src` folder in cmd or shell by shift + right click > Open PowerShell/Command Prompt here.
 - Do `ctrl + C` to stop.
 
 **Questions:**
