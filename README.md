@@ -69,9 +69,13 @@ I'll keep these things in mind as I'm going through this to see if these are tru
 
 :thinking: **Theory**: It seems faster that way, though I guess the downside is it won't be 100% up to date if I make a new project say 3 months down the line for example.
 
+:exclamation: **A1**: There is a better way answered in A2.
+
 > :question: **Q2**: What about putting every React-based projects inside a "master" folder called something like `React Web Apps`?
 
 :thinking: **Theory**: This might not work in a professional environment where each project needs to be kept separate (I actually don't know why but I feel like it's a good idea), but it might work for my purpose cuz it might save lots of time from having to reinstall pretty much the same package for every.single.project that I'll be making pretty much rapidly.
+
+:exclamation: **A2**: Yes you can. Just install React like normal, but put every project in their own folder under the `src` folder. Then make an `index.js` in the src folder. That will be the "main" function that renders everything. In order to still have a "pseudo main" function for each project, make an `App.js` where everything is organized.
 
 **Discoveries:**
 
@@ -193,4 +197,8 @@ Day 3: 24/06/2021
 
 **Questions:**
 
-> :question: **Q4**: Do we need to specify the data type when passing values like this. It looks like we don't need to specify data type like `int a = 10` when doing this. Though I guess if it doesn't fit then just wouldn't compile.
+> :question: **Q4**: Do we need to specify the data type when passing values like this.
+
+:thinking: **Theory**: It looks like we don't need to specify data type like `int a = 10` when doing this. Though I guess if it doesn't fit it would just not compile.
+
+:exclamation: **A4**: What was said above.
