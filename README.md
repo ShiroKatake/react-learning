@@ -188,6 +188,8 @@ Day 3: 24/06/2021
 
 - Think of this like object properties in Unity.
 - The script for a component can be thought of like a "constructor" of a sort to pass data in when creating new instances of the object.
+- Only need 1 pair of `{ }` when referencing data because it's not an object.
+- If an object is passed into the function instead of raw data, then you'd need to call `parameter.object.variable`. Calling `parameter.variable` would only work if you didn't pass data in as an object (which you shouldn't anyway).
 
 **Questions:**
 
