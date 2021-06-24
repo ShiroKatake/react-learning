@@ -176,4 +176,19 @@ Eg.
 
 ---
 
-## **Lesson 6: Props**
+Day 3: 24/06/2021
+
+## **Lesson 6: Properties (Props for short)**
+
+### **Resources:**
+
+[Traversy Media: React JS Crash Course 2021](https://youtu.be/DLX62G4lc44?t=3495)
+
+### **Notes:**
+
+- Think of this like object properties in Unity.
+- The script for a component can be thought of like a "constructor" of a sort to pass data in when creating new instances of the object.
+
+**Questions:**
+
+> :question: **Q4**: Do we need to specify the data type when passing values like this. It looks like we don't need to specify data type like `int a = 10` when doing this. Though I guess if it doesn't fit then just wouldn't compile.
