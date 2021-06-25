@@ -8,6 +8,10 @@ function App() {
                 question: "What's the best thing about Switzerland?",
                 punchline: "I don't know, but the flag is a big plus."
             }}/>
+            <Joke elements={{
+                question: "Why do we tell actors to 'break a leg'?",
+                punchline: "Because every play has a cast."
+            }}/>
         </ol>
     )
 }
