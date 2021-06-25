@@ -203,3 +203,19 @@ Day 3: 24/06/2021
 :thinking: **Theory**: It looks like we don't need to specify data type like `int a = 10` when doing this. Though I guess if it doesn't fit it would just not compile.
 
 :exclamation: **A4**: What was said above.
+
+---
+
+Day 4: 25/06/2021
+
+## **Lesson 7: Map**
+
+### **Resources:**
+
+[Official documentation for Js Map](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/map)
+
+### **Notes:**
+
+- Creates a new array where each element is applied a function that was passed in as the parameter for the map function.
+  - Good for passing data of objects with repeated elements (eg. lists) to the return function.
+- Reminder to import the object first before using.
