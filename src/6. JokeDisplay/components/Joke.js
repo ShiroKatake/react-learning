@@ -3,8 +3,9 @@ import React from 'react'
 function Joke(props) {
     return (
         <li>
-            <p>{props.elements.question}</p>
+            <h2>{props.elements.question}</h2>
             <p>{props.elements.punchline}</p>
+            <hr/>
         </li>
     )
 }
