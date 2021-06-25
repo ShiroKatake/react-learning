@@ -3,10 +3,12 @@ import Joke from './components/Joke'
 
 function App() {
     return (
-        <Joke elements={{
-            question: "",
-            punchline: ""
-        }}/>
+        <ol>
+            <Joke elements={{
+                question: "",
+                punchline: ""
+            }}/>
+        </ol>
     )
 }
 
