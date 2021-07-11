@@ -110,8 +110,8 @@ reactDOM.render(<h1>Hello World</h1>, document.getElementById("root"));
 
 ```html
 <div>
-  <h1>Hello World</h1>
-  <p>This is a paragraph</p>
+	<h1>Hello World</h1>
+	<p>This is a paragraph</p>
 </div>
 ```
 
