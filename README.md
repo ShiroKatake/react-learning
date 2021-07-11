@@ -225,7 +225,7 @@ Day 5: 11/07/2021
 
 ```js
 const nums = [1, 2, 3, 4];
-const doubled = nums.map(function (nums) {
+const doubled = nums.map((nums) => {
 	return nums * 2;
 });
 ```
