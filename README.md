@@ -219,7 +219,16 @@ Day 4: 25/06/2021
 - In order to turn "raw data" (eg. imported from a .json) into components for React, we need to use **"high order"** array functions (array manipulation functions).
   - They allow you to "do things" for each element in the array.
 - Map is an example. It creates a new array where each element is applied a function that was passed in as the parameter for the map function.
-  - Good for passing data of objects with repeated elements (eg. lists) to the return function.
+- Example: This code will double each element in the `nums` array.
+
+```js
+const nums = [1, 2, 3, 4];
+const doubled = nums.map(function (nums) {
+	return nums * 2;
+});
+```
+
+- Good for passing data of objects with repeated elements (eg. lists) to the return function.
 - Reminder to import the object first before using.
 - Some other array manipulation functions that might be of interest:
   - [filter](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter)
