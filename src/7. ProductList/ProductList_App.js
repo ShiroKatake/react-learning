@@ -6,7 +6,7 @@ function App() {
 	const productComponents = productData.map((product) => {
 		return <Product id={product.id} name={product.name} price={product.price} description={product.description} />;
 	});
-	return <ol>productComponents</ol>;
+	return <ol>{productComponents}</ol>;
 }
 
 export default App;

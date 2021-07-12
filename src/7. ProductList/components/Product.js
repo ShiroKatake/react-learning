@@ -3,9 +3,10 @@ import React from "react";
 function Product(props) {
 	return (
 		<li>
-			<h2>{props.elements.name}</h2>
-			<p>{props.elements.price}</p>
-			<p>{props.elements.description}</p>
+			<h2>Product name: {props.name}</h2>
+			<p>ID: {props.id}</p>
+			<p>Price: {props.price}</p>
+			<p>Description: {props.description}</p>
 			<hr />
 		</li>
 	);
