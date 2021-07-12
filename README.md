@@ -88,6 +88,12 @@ I'll keep these things in mind as I'm going through this to see if these are tru
 
 ## **Lesson 2: Hello World**
 
+### **Resources:**
+
+-   [About JSX](https://reactjs.org/docs/introducing-jsx.html)
+-   [About the root element](https://datacadamia.com/web/javascript/react/root)
+-   [Discussion about only putting JSX in .js files](https://github.com/airbnb/javascript/pull/985)
+
 ### **Notes:**
 
 -   Reminder to always do this before writing anything:
@@ -126,6 +132,8 @@ reactDOM.render(<h1>Hello World</h1>, document.getElementById("root"));
 :exclamation: **A3**: So apparently according to [this](https://datacadamia.com/web/javascript/react/root), the root element provides the methods necessary for rendering the components in the React web app.
 
 > :question: **Q5**: What is JSX?
+
+:exclamation: **A5**: According to the official docs, JSX is a syntax extension to Js (not actually Js the language) used alongside Js in developing React apps. It acts as a language that handles the UI side of the app while Js will handle the logic side of the app.
 
 ---
 
