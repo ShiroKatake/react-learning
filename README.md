@@ -280,6 +280,27 @@ return (
 
 ---
 
+Day 6: 12/07/2021
+
+## **Lesson 8: Class-based Components (vs Functional Components)**
+
+### **Resources:**
+
+[freeCodeCamp.org: React JS Crash Course 2021](https://youtu.be/DLX62G4lc44?t=7103)
+
+### **Notes:**
+
+-   Functional components is what I've been doing for the last how many projects.
+-   Class-based components is just superior cuz
+    1. The function that I've been using is inside of a class component
+    2. Class components are a lot better cuz it allows for state(?) and many other things.
+-   A class would 99.99% always extends `React.Component`.
+-   If it will have the rendering function, make sure it's inside the `render()` method.
+
+Exercise: Convert all functional components into class-based components.
+
+---
+
 Day #
 
 ## **Lesson #: Copy Pasta Template**
