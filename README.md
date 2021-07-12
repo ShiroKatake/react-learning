@@ -125,6 +125,8 @@ reactDOM.render(<h1>Hello World</h1>, document.getElementById("root"));
 
 :exclamation: **A3**: So apparently according to [this](https://datacadamia.com/web/javascript/react/root), the root element provides the methods necessary for rendering the components in the React web app.
 
+> :question: **Q5**: What is JSX?
+
 ---
 
 ## **Lesson 3: Implementing Components**
