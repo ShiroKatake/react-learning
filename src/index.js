@@ -5,6 +5,6 @@ import ReactDOM from "react-dom";
 //import TodoList from './3. TodoList/TodoList_App'
 //import ContactList from './6. ContactList/ContactList_App'
 //import JokeList from "./6. JokeDisplay/JokeList_App";
-import JokeList_w_ObjectImport from "./7. JokeList_w_ObjectImport/7. JokeList_w_ObjectImport_App";
+import ProductList from "./7. ProductList/ProductList_App";
 
-ReactDOM.render(<JokeList_w_ObjectImport />, document.getElementById("root"));
+ReactDOM.render(<ProductList />, document.getElementById("root"));
