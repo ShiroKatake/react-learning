@@ -121,7 +121,9 @@ reactDOM.render(<h1>Hello World</h1>, document.getElementById("root"));
 
 **Questions:**
 
-> :question: **Q3**: I wanna know where this `'root'` is. It's probably not important to know, but when I have time to come back I wanna check this.
+> :question: **Q3**: I wanna know where this `"root"` is when doing `getElementById`. It's probably not important to know, but when I have time to come back I wanna check this.
+
+:exclamation: **A3**: So apparently according to [this](https://datacadamia.com/web/javascript/react/root), the root element provides the methods necessary for rendering the components in the React web app.
 
 ---
 
