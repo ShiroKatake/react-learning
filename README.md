@@ -20,7 +20,7 @@ Day 1: 21/06/2021
 
 ### **Resources:**
 
--   [Traversy Media: React JS Crash Course 2021](https://youtu.be/DLX62G4lc44?t=384)
+-   [freeCodeCamp.org: React JS Crash Course 2021](https://youtu.be/DLX62G4lc44?t=384)
 -   [C#Corner - What And Why React.js](https://www.c-sharpcorner.com/article/what-and-why-reactjs/)
 
 ### **Notes:**
@@ -53,7 +53,7 @@ I'll keep these things in mind as I'm going through this to see if these are tru
 
 ### **Resources:**
 
--   [Traversy Media: React JS Crash Course 2021](https://youtu.be/w7ejDZ8SWv8?t=757)
+-   [freeCodeCamp.org: React JS Crash Course 2021](https://youtu.be/w7ejDZ8SWv8?t=757)
 -   [MOSH: React JS - React Tutorial for Beginners](https://youtu.be/Ke90Tje7VS0?t=348)
 
 ### **Notes:**
@@ -129,7 +129,7 @@ reactDOM.render(<h1>Hello World</h1>, document.getElementById("root"));
 
 ### **Resources:**
 
-[Traversy Media: React JS Crash Course 2021](https://youtu.be/DLX62G4lc44?t=2107)
+[freeCodeCamp.org: React JS Crash Course 2021](https://youtu.be/DLX62G4lc44?t=2107)
 
 ### **Notes:**
 
@@ -150,7 +150,7 @@ Day 2: 22/06/2021
 
 ### **Resources:**
 
-[Traversy Media: React JS Crash Course 2021](https://youtu.be/DLX62G4lc44?t=3051)
+[freeCodeCamp.org: React JS Crash Course 2021](https://youtu.be/DLX62G4lc44?t=3051)
 
 ### **Notes:**
 
@@ -167,7 +167,7 @@ Day 2: 22/06/2021
 
 ### **Resources:**
 
-[Traversy Media: React JS Crash Course 2021](https://youtu.be/DLX62G4lc44?t=3495)
+[freeCodeCamp.org: React JS Crash Course 2021](https://youtu.be/DLX62G4lc44?t=3495)
 
 ### **Notes:**
 
@@ -187,7 +187,7 @@ Day 3: 24/06/2021
 
 ### **Resources:**
 
-[Traversy Media: React JS Crash Course 2021](https://youtu.be/DLX62G4lc44?t=3495)
+[freeCodeCamp.org: React JS Crash Course 2021](https://youtu.be/DLX62G4lc44?t=3495)
 
 ### **Notes:**
 
