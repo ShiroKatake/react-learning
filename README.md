@@ -265,3 +265,21 @@ return (
 ```
 
 -   Reminder #2: Your data needs to be [exported](https://stackoverflow.com/questions/54573720/default-a-map-is-not-a-function-in-react) in order to be used.
+
+---
+
+Day #
+
+## **Lesson #: Copy Pasta Template**
+
+### **Resources:**
+
+### **Notes:**
+
+### **Questions:**
+
+> :question: **Q1**:
+
+:thinking: **Theory**:
+
+:exclamation: **A1**:
