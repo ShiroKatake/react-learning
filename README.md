@@ -299,6 +299,12 @@ Day 6: 12/07/2021
 
 Exercise: Convert all functional components into class-based components.
 
+### **Questions:**
+
+> :question: **Q6**: Is there an occasion where we would use functional components over class-based components?
+
+:thinking: **Theory**: I know class-based is superior, but it feels unnecessary having to type extra lines when you don't even use it.
+
 ---
 
 Day #
