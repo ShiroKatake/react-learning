@@ -303,7 +303,7 @@ Exercise: Convert all functional components into class-based components.
 
 > :question: **Q6**: Is there an occasion where we would use functional components over class-based components?
 
-:thinking: **Theory**: I know class-based is superior, but it feels unnecessary having to type extra lines when you don't even use it.
+:thinking: **Theory**: I know class-based is superior, but it feels unnecessary having to type extra lines when you don't even use it. I guess if you don't need to use the React.Component's functions then you don't need it.
 
 ---
 
