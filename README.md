@@ -325,14 +325,7 @@ Day 8: 19/07/2021
     -   Inside the constructor you need to call `super()` in order to use related function to intialize states.
     -   You can initialize states inside `this.state = { }`.
 -   Neat thing about states is if you change it, it'll automatically update for every child component that uses it.
-
-### **Questions:**
-
-> :question: **Q1**:
-
-:thinking: **Theory**:
-
-:exclamation: **A1**:
+-   Note: variables are declared as `variable: value` NOT `variable = value`.
 
 ---
 
