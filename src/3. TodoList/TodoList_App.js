@@ -21,7 +21,6 @@ class App extends React.Component {
 			});
 			return { todos: newTodos };
 		});
-		//alert("Works!");
 	}
 
 	render() {
