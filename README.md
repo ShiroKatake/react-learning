@@ -317,6 +317,7 @@ Day 8: 19/07/2021
 ### **Resources:**
 
 -   [freeCodeCamp.org: React JS Crash Course 2021](https://youtu.be/DLX62G4lc44?t=7639)
+-   [learn.co: React Updating State](https://learn.co/lessons/react-updating-state)
 
 ### **Notes:**
 
