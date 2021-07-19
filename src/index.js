@@ -6,6 +6,7 @@ import ReactDOM from "react-dom";
 //import ContactList from './6. ContactList/ContactList_App'
 //import JokeList from "./6. JokeDisplay/JokeList_App";
 //import ProductList from "./7. ProductList/ProductList_App";
-import StatePractice from "./8. StatePractice/StatePractice_App";
+//import StatePractice from "./8. StatePractice/StatePractice_App";
+import StatePractice2 from "./8. StatePractice/StatePractice_App2";
 
-ReactDOM.render(<StatePractice />, document.getElementById("root"));
+ReactDOM.render(<StatePractice2 />, document.getElementById("root"));
