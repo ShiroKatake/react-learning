@@ -12,10 +12,15 @@ class App extends React.Component {
 	}
 
 	handleChange(id) {
-		// this.setState((something) => {
-		// 	return {};
-		// });
-		alert("Works!");
+		this.setState((prevState) => {
+			const newTodos = prevState.todos.map((todo) => {
+				if (todo.id === id) {
+					todo.checked = !todo.checked;
+					return { todos: newTodos };
+				}
+			});
+		});
+		//alert("Works!");
 	}
 
 	render() {
