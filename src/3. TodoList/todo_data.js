@@ -1,4 +1,4 @@
-todo_data = [
+const todo_data = [
 	{
 		id: 1,
 		name: "Wash car.",
@@ -15,3 +15,5 @@ todo_data = [
 		checked: true,
 	},
 ];
+
+export default todo_data;
