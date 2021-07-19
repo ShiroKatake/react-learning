@@ -8,11 +8,19 @@ class App extends React.Component {
 		this.state = {
 			todos: todo_data,
 		};
+		this.handleChange = this.handleChange.bind(this);
+	}
+
+	handleChange(id) {
+		// this.setState((something) => {
+		// 	return {};
+		// });
+		alert("Works!");
 	}
 
 	render() {
 		const todoComponents = this.state.todos.map((item) => {
-			return <TodoComponent id={item.id} name={item.name} checked={item.checked} />;
+			return <TodoComponent id={item.id} item={item} onChange={this.handleChange} />;
 		});
 		return <div className="todo-list">{todoComponents}</div>;
 	}
