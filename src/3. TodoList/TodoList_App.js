@@ -16,9 +16,10 @@ class App extends React.Component {
 			const newTodos = prevState.todos.map((todo) => {
 				if (todo.id === id) {
 					todo.checked = !todo.checked;
-					return { todos: newTodos };
 				}
+				return todo;
 			});
+			return { todos: newTodos };
 		});
 		//alert("Works!");
 	}
