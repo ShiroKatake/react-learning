@@ -20,7 +20,7 @@ class App extends React.Component {
 
 	render() {
 		const todoComponents = this.state.todos.map((item) => {
-			return <TodoComponent id={item.id} item={item} onChange={this.handleChange} />;
+			return <TodoComponent id={item.id} item={item} handleChange={this.handleChange} />;
 		});
 		return <div className="todo-list">{todoComponents}</div>;
 	}
