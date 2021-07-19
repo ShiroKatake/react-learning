@@ -320,12 +320,35 @@ Day 8: 19/07/2021
 
 ### **Notes:**
 
+About states:
+
 -   Can be maintained by a component (has to be class-based) and can be changed if need to.
 -   To have states, you need to have a constructor.
     -   Inside the constructor you need to call `super()` in order to use related function to intialize states.
     -   You can initialize states inside `this.state = { }`.
+    -   All of this can be done automatically by typing `rcon` to access the code snippet.
 -   Neat thing about states is if you change it, it'll automatically update for every child component that uses it.
 -   Note: variables are declared as `variable: value` NOT `variable = value`.
+
+To change states:
+
+-   Use `this.setState()`. There are 2 ways to pass things into `setState()`:
+    -   An object literal (eg. `{aRandomProperty: "someValue"}`).
+    -   A function that returns an object literal. This allows us to access the old version of the state. **_(VERY IMPORTANT TO KNOW)_**
+    ```js
+    this.setState((prevState) => {
+    	return {
+    		someNumber: prevState.someNumber + 1,
+    	};
+    });
+    ```
+-   Reminder that you'll need to bind whatever function has `setState()` to `this` **in the constructor**.
+
+```js
+this.ThisFunction = this.ThisFunction.bind(this);
+```
+
+-   Whenever a state changes, React will update it for every component that uses it.
 
 ---
 
