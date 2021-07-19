@@ -282,6 +282,8 @@ return (
 
 Day 6: 12/07/2021
 
+Day 7: 17/07/2021
+
 ## **Lesson 8: Class-based Components (vs Functional Components)**
 
 ### **Resources:**
@@ -304,6 +306,33 @@ Exercise: Convert all functional components into class-based components.
 > :question: **Q6**: Is there an occasion where we would use functional components over class-based components?
 
 :thinking: **Theory**: I know class-based is superior, but it feels unnecessary having to type extra lines when you don't even use it. I guess if you don't need to use the React.Component's functions then you don't need it.
+
+---
+
+Day 7: 17/07/2021
+Day 8: 19/07/2021
+
+## **Lesson 9: States**
+
+### **Resources:**
+
+-   [freeCodeCamp.org: React JS Crash Course 2021](https://youtu.be/DLX62G4lc44?t=7639)
+
+### **Notes:**
+
+-   Can be maintained by a component (has to be class-based) and can be changed if need to.
+-   To have states, you need to have a constructor.
+    -   Inside the constructor you need to call `super()` in order to use related function to intialize states.
+    -   You can initialize states inside `this.state = { }`.
+-   Neat thing about states is if you change it, it'll automatically update for every child component that uses it.
+
+### **Questions:**
+
+> :question: **Q1**:
+
+:thinking: **Theory**:
+
+:exclamation: **A1**:
 
 ---
 
