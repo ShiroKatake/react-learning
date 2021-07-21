@@ -4,8 +4,8 @@ class Joke extends React.Component {
 	render() {
 		return (
 			<li>
-				<h2>{props.elements.question}</h2>
-				<p>{props.elements.punchline}</p>
+				<h2>{this.props.elements.question === true ? "yes" : "no"}</h2>
+				<p>{this.props.elements.punchline}</p>
 				<hr />
 			</li>
 		);

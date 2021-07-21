@@ -7,13 +7,13 @@ class App extends React.Component {
 			<ol>
 				<Joke
 					elements={{
-						question: "What's the best thing about Switzerland?",
+						question: true,
 						punchline: "I don't know, but the flag is a big plus.",
 					}}
 				/>
 				<Joke
 					elements={{
-						question: "Why do we tell actors to 'break a leg'?",
+						question: false,
 						punchline: "Because every play has a cast.",
 					}}
 				/>
